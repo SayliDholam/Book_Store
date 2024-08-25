@@ -52,3 +52,5 @@ npx tailwindcss init -p
 @tailwind utilities;
 
 npm i react-router-dom
+
+npm i axios react-icons
