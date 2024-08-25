@@ -29,6 +29,26 @@ code
 check 
 
 
+
+
 -----------
 
 FRONTEND:
+
+npm install vite
+npm create vite@latest
+cd to main repo -> FRONTEND
+npm i
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+[
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+]
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npm i react-router-dom
