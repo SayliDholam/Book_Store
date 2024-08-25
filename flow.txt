@@ -11,6 +11,23 @@ npm install mongoose
 create db and collection , connection string
 code
 
+create bookschema model
+code app.post()
+use postman to test request
+check 
+code app.get()
+use postman to test request
+check 
+code app.put()
+use postman to test request
+check 
+code app.post()
+use postman to test request
+
+npm i cors
+code
+check 
+
 
 -----------
 
