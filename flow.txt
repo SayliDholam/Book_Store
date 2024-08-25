@@ -1,6 +1,8 @@
 BACKEND :
 npm init -y
 npm i express nodemon
+edit script 
+create index.js
 
 -----------
 
