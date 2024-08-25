@@ -54,3 +54,4 @@ npx tailwindcss init -p
 npm i react-router-dom
 
 npm i axios react-icons
+npm install notistack
