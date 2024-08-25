@@ -1,8 +1,16 @@
 BACKEND :
+
 npm init -y
 npm i express nodemon
 edit script 
 create index.js
+code
+
+npm run dev
+npm install mongoose
+create db and collection , connection string
+code
+
 
 -----------
 
