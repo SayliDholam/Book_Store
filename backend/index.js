@@ -1,4 +1,5 @@
 import express, { request, response } from "express";
+export const DB_NAME = 'BookStore';
 import { PORT , MONGODB_URI} from "./config.js";
 import mongoose from "mongoose";
 import booksRoutes from './routes/booksRoutes.js'
@@ -10,14 +11,14 @@ app.use(express.json());
 
 
 app.use(cors())
-/*
+
 app.use(cors({
-    origin: 'http://localhost:300',
+    origin: 'http://localhost:3000',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
 })
 );
-*/
+
 
 app.get('/', (request, response) => {
     console.log(request)
